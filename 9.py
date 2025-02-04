@@ -5,12 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import SVC
-from keras.datasets import fashion_mnist
-from keras.utils import to_categorical
-from keras.models import Sequential
-from keras.layers import Dense, Flatten
 
 (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
 
